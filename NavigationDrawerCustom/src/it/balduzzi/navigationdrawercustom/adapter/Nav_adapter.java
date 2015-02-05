@@ -152,14 +152,6 @@ public class Nav_adapter extends RecyclerView.Adapter<Nav_adapter.ViewHolder> {
         return mData != null ? mData.size() : 0;
     }
 
-   /* public static class ViewHolder extends RecyclerView.ViewHolder {
-        public TextView textView;
-
-        public ViewHolder(View itemView) {
-            super(itemView);
-            textView = (TextView) itemView.findViewById(R.id.item_name);
-        }
-    }*/
 
     @Override
     public int getItemViewType(int position) {

@@ -21,11 +21,7 @@ import java.util.List;
 
 
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * create an instance of this fragment.
- */
+
 public class Nav_DrawerFragment extends Fragment implements DrawerCallbacks {
     private DrawerCallbacks mCallbacks;
     private RecyclerView mDrawerList;
@@ -117,7 +113,6 @@ public class Nav_DrawerFragment extends Fragment implements DrawerCallbacks {
     public List<NavigationItem> getMenu() {
         List<NavigationItem> items = new ArrayList<NavigationItem>();
 
-        //TODO aggiunta del nome e della email
         items.add(new NavigationItem(getResources().getString(R.string.action_home), getResources().getDrawable(R.drawable.ic_home_black_24dp)));
         items.add(new NavigationItem(getResources().getString(R.string.action_search), getResources().getDrawable(R.drawable.ic_pageview_black_24dp)));
         items.add(new NavigationItem(getResources().getString(R.string.action_settings), getResources().getDrawable(R.drawable.ic_settings_applications_black_24dp)));
