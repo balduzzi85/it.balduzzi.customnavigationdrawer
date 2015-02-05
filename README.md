@@ -1,6 +1,6 @@
 # Custom NavigationDrawer with Material Design
 
-[url=https://imgflip.com/gif/h92qq][img]https://i.imgflip.com/h92qq.gif[/img][/url][url=https://imgflip.com/gifgenerator]via Imgflip GIF Maker[/url]
+<a href="https://imgflip.com/gif/h92qq"><img src="https://i.imgflip.com/h92qq.gif" title="made at imgflip.com"/></a>
 
 Usage
 
