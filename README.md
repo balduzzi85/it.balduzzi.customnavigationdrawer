@@ -1,4 +1,4 @@
-# it.balduzzi.customnavigationdrawer
+# Custom NavigationDrawer with Material Design
 
 Usage
 
