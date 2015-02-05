@@ -4,6 +4,7 @@ import it.balduzzi.navigationdrawercustom.fragment.Nav_DrawerFragment;
 
 
 
+import it.balduzzi.navigationdrawercustom.interfaces.DrawerCallbacks;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -18,7 +19,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Toast;
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends ActionBarActivity implements DrawerCallbacks {
 
 	
 	private Toolbar mToolbar;
@@ -56,6 +57,12 @@ public class MainActivity extends ActionBarActivity {
 		
 		
 	}
+	
+	  @Override
+	    public void onNavigationDrawerItemSelected(int position) {
+	      //  Toast.makeText(this, "item no: " + position + "-Selected", Toast.LENGTH_SHORT).show();
+
+	    }
 	
 	
 

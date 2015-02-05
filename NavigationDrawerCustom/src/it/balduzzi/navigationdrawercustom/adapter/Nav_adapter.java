@@ -61,7 +61,7 @@ public class Nav_adapter extends RecyclerView.Adapter<Nav_adapter.ViewHolder> {
             } else {
                 Name = (TextView) itemView.findViewById(R.id.name);         // Creating Text View object from header.xml for name
                 email = (TextView) itemView.findViewById(R.id.email);       // Creating Text View object from header.xml for email
-                profile = (ImageView) itemView.findViewById(R.id.circleView);// Creating Image view object from header.xml for profile pic
+                //profile = (ImageView) itemView.findViewById(R.id.circleView);// Creating Image view object from header.xml for profile pic
                 Holderid = 0;
 
 
@@ -134,7 +134,7 @@ public class Nav_adapter extends RecyclerView.Adapter<Nav_adapter.ViewHolder> {
         }
         else{
 
-            holder.profile.setImageResource(profile);           // Similarly we set the resources for header view
+            //holder.profile.setImageResource(profile);           // Similarly we set the resources for header view
             holder.Name.setText("Antonio Balduzzi");
             holder.email.setText("balduzzi@gmail.com");
         }
@@ -153,7 +153,14 @@ public class Nav_adapter extends RecyclerView.Adapter<Nav_adapter.ViewHolder> {
         return mData != null ? mData.size() : 0;
     }
 
-  
+   /* public static class ViewHolder extends RecyclerView.ViewHolder {
+        public TextView textView;
+
+        public ViewHolder(View itemView) {
+            super(itemView);
+            textView = (TextView) itemView.findViewById(R.id.item_name);
+        }
+    }*/
 
     @Override
     public int getItemViewType(int position) {
