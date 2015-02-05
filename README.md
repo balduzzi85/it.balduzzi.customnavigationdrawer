@@ -1,7 +1,6 @@
 # Custom NavigationDrawer with Material Design
 
-<a href="https://imgflip.com/gif/h92ss"><img src="https://i.imgflip.com/h92ss.gif" title="made at imgflip.com"/></a>
-
+<a href="http://s205.photobucket.com/user/felas85/media/ezgif.com-crop_zpshnpnykrx.gif.html" target="_blank"><img src="http://i205.photobucket.com/albums/bb243/felas85/ezgif.com-crop_zpshnpnykrx.gif" border="0" alt=" photo ezgif.com-crop_zpshnpnykrx.gif"/></a>
 
 
 
