@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_color">#004B7D</color>
+    <color name="background_login_color">#FFFFFF</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="ColorPrimary">#e62117</color>
+    <color name="ColorPrimaryDark">#c31c13</color>
+    <color name="tabsScrollColor">#8a140e</color>
+
+
+    <color name="actionbarbackground">#1976D2</color>
+    <color name="myPrimaryDarkColor">#3F51B5</color>
+    <color name="myAccentColor">#90CAF9</color>
+    <color name="myDrawerBackground">#E3F2FD</color>
+    <color name="myWindowBackground">#64B5F6</color>
+    <color name="myTextPrimaryColor">#000</color>
+    <color name="myNavigationColor">#000000</color>
+
+    <color name="selection">#42A5F5</color>
+
+</resources>
