@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="AppMain" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/background_color</item>
+        <item name="colorPrimaryDark">@color/myPrimaryDarkColor</item>
+        <item name="colorAccent">@color/myAccentColor</item>
+        <item name="android:textColorPrimary">@color/myTextPrimaryColor</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="android:windowBackground">@color/background_material_light</item>
+
+        <!--This makes the status bar transparent in KK and Lollipop-->
+        <!--You do not need values-v21 and if you create them make sure you extend from this one-->
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+
+
+
+
+</resources>
